@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "559986894570",
+    "project_id": "whiskr-209d0",
+    "storage_bucket": "whiskr-209d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559986894570:android:058cc0c2e70dfafe015993",
+        "android_client_info": {
+          "package_name": "com.example.whiskr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJsa3D4iV4ZI2bA-o1qOz6AxI4iB8BDuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
