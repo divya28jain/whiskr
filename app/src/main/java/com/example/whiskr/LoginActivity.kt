@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.whiskr.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.auth.User
 
 class LoginActivity : AppCompatActivity() {
 
@@ -28,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
                             Toast.makeText(this, "Logged in!", Toast.LENGTH_SHORT).show()
-                            startActivity(Intent(this, ProfileActivity::class.java))
+                            startActivity(Intent(this, UserProfileActivity::class.java))
                             finish()
                         } else {
                             Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_LONG).show()
